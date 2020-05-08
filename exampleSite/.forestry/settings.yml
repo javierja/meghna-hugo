@@ -5,9 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: HeaderSideBar
+  label: Author
 - type: heading
   label: Blog Post
+- type: heading
+  label: HeaderSideBar
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
@@ -23,8 +25,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Author
 - type: directory
   path: exampleSite/content/english/author
   label: Author (en)
